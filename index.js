@@ -1,4 +1,21 @@
 let $currentDayEl = $("#currentDay");
 $currentDayEl.text(moment().format("dddd, MMMM Do"));
+let containerEl = $(".container");
+
+let hoursArray = [9, 10, 11, 12, 13, 14, 15, 16, 17];
+
+for (let i = 0; i < hoursArray.length; i++) {
+  const hour = hoursArray[i];
+  let row = `<div class="row">
+  <div class="col-2 time-block hour">${hour}</div>
+  <textarea class="col-8"></textarea>
+  <button class="col-2 saveBtn">
+    <i class="fa fa-save" aria-hidden="true"></i>
+  </button>
+</div>`;
+  console.log(hour);
+  containerEl.append(row);
+  
+}
 
 
