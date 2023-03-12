@@ -36,6 +36,9 @@ The app should:
 * Moment.js
 * Bootstrap
 
+## Outcome
+![Daily Planner](/demo/demo.png)
+
 ## Deployed Site Link
 [GitHub Pages](https://apyosi.github.io/daily-planner/)
 
