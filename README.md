@@ -25,7 +25,7 @@ The app should:
 
 
 ## Mock-Up
-![Daily Planner](/demo/demo.gif)
+![Daily Planner](/demo/mock-up.gif)
 
 
 ## Built with
@@ -37,7 +37,7 @@ The app should:
 * Bootstrap
 
 ## Outcome
-![Daily Planner](/demo/demo.png)
+![Daily Planner](/demo/image.png)
 
 ## Deployed Site Link
 [GitHub Pages](https://apyosi.github.io/daily-planner/)
